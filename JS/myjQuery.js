@@ -87,8 +87,8 @@ $(document).ready(function () {
     //     $('#code').fadeOut(1000);            
     // })
 
-    $('#btn').click(function() {
-        $('#code').fadeToggle(1000);            
+    $('#btn').click(function () {
+        $('#code').fadeToggle(1000);
     })
 
     // fadeIn()
@@ -98,7 +98,7 @@ $(document).ready(function () {
 
     // Slide methods - speed & callback parameters are optional
     // $('#code').slideDown(1000, function() {
-        // console.log('done');
+    // console.log('done');
     // });
     // $('#code').slideUp(1000);
     // $('#code').slideToggle(1000);
@@ -127,4 +127,20 @@ $(document).ready(function () {
     // $('#code').empty();
     // $('#code').text('you are good');
     // $('#code').remove();
+
+    // $('#code').addClass('myClass')
+    // $('#code').addClass('myClass2')
+    // $('#code').removeClass('myClass2')
+    // $('#code').css('background-color', 'red')
+    // $('#code').css('background-color')
+
+    // AJAX Using jQuery
+    // $.get('', function(data, status) { alert(data); })
+
+    // $.get('', function(data, status) { alert(status); })
+
+    // $.post('',
+    // { name: 'hello', channel: 'codingGx' },
+    // function (data, status) {alert(status) });
+
 });
