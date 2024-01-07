@@ -102,4 +102,29 @@ $(document).ready(function () {
     // });
     // $('#code').slideUp(1000);
     // $('#code').slideToggle(1000);
+
+    // Animate function in jQuery
+    // $('#code').animate({
+    //     opacity: 0.3,
+    //     height: '150px',
+    //     width: '350px'
+    // }, "fast")
+
+    // $('#code').animate({opacity: 0.3}, 4000);
+    // $('#code').animate({opacity: 0.9}, 1000);
+    // $('#code').animate({width: '350px'}, 12000);
+
+    // $('#code').stop();
+    // $('#code').stop(function() {console.log('stopped');});
+    // $('#code').text();
+
+    // $('#ta').val('setting it to hello');
+    // $('#ta').html('setting it to hello');
+    // $('#ta').html('setting it to hello2');
+    // $('#inp').html('setting it to hello2');
+    // $('#inp').val('setting it to hello2');
+    // $('#inp').empty();
+    // $('#code').empty();
+    // $('#code').text('you are good');
+    // $('#code').remove();
 });
