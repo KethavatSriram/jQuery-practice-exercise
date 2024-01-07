@@ -1,16 +1,39 @@
 $(document).ready(function () {
     // Your jQuery code here
+    console.log('I am in a new file now');
     console.log("We are using jQuery");
-    // jQuery Syntax looks like : $('selector').action()
+    // jQuery Syntax looks like : 
+    // $('selector').action()
 
     // clicks on all the p elements. This is an example of element selector
-    $('p').click(); // click on p
+    // $('p').click(); // click on p
 
-    $("p").click(function () {
-        console.log("You Clicked On P", this);
-        // $('#id').hide(); 
-        // $('.class').hide(); 
-    }); // do this when we click on p
+    // $('p').click(function () {
+    //     console.log("you clicked on p", this);
+    //     // $('#id').hide(); 
+    //     // $('.class').hide(); 
+    // }); // do this when we click on p
+
+    // $('p').mouseenter(function () {
+    //     console.log("you entered:", this);
+    //     // $('#id').hide(); 
+    //     // $('.class').hide(); 
+    // }); // do this when we click on p
+
+    // $('p').dblclick(function () {
+    //     console.log("you double clicked on p", this);
+    //     // $('#id').hide(); 
+    //     // $('.class').hide(); 
+    // }); // do this when we click on p
+
+    // $('p').hover(function () {
+    //     console.log("you hovered on:", this);
+    //     // $('#id').hide(); 
+    //     // $('.class').hide(); 
+    // },
+    //     function () {
+    //         console.log('Thanks for coming');
+    //     })
 
     // There are three main types of selectors in jQuery
     // 1. element selector
@@ -30,4 +53,22 @@ $(document).ready(function () {
     // $('*').click() // Clicks on all elements
     // $('p.odd').click() // Clicks on all elements
     // $('p:first').click() // Clicks on all elements
+
+    // Events in jQuery
+    // Mouse events = click, dblclick, mouseenter, mouseleave
+    // keyboardEvent = keypress, keydown, MediaKeyStatusMAp
+    // form events = sumbit, change, focus, blur
+    // document/window events = load, resize, scroll, unload
+
+    // demoing the on method
+    $('p').on(
+        {
+            click: function () {
+                console.log('Thanks for coming', this);
+            },
+            mouseleave: function () {
+                console.log("mouseleave");
+            }
+        })
+
 })
