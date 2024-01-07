@@ -71,4 +71,35 @@ $(document).ready(function () {
             }
         })
 
-})
+    // $('#code').hide(2000, function() {
+    //     console.log("hidden");
+    // })
+
+    // $('#code').show(2000, function() {
+    //     console.log("shown");
+    // })
+
+    // $('#btn').click(function() {
+    //     $('#code').toggle(1000);            
+    // })
+
+    // $('#btn').click(function() {
+    //     $('#code').fadeOut(1000);            
+    // })
+
+    $('#btn').click(function() {
+        $('#code').fadeToggle(1000);            
+    })
+
+    // fadeIn()
+    // fadeOut()
+    // fadeToggle()
+    // fadeTo()
+
+    // Slide methods - speed & callback parameters are optional
+    // $('#code').slideDown(1000, function() {
+        // console.log('done');
+    // });
+    // $('#code').slideUp(1000);
+    // $('#code').slideToggle(1000);
+});
